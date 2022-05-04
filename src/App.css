@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300&display=swap');
+*{
+  
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background-color: #FFE4C4;
+}
+.wrapper{
+  display: flex;
+  max-width: 600px;
+  border : 1px solid black;
+  flex-direction: column;
+  margin: auto;
+}
+.todo-list-text{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 10px;
+  align-items: center;
+  font-size: 30px;
+}
+.add-button{
+  border: none;
+  align-items: center;
+  display: flex;
+}
+.list-item{
+  font-size: 20px;
+  color: white;
+  background-color: brown;
+  border-bottom: 1px solid black;
+}
+#delete-complete-icon{
+  font-size: 30px;
+  cursor: pointer;
+  align-items: center;
+}
+.form{
+  display: flex;
+  margin: auto;
+  max-width: 600px;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.form input{
+  height: 40px;
+  width: 100%;
+  color: black;
+  background-color: #FFE4C4 ;
+}
+.form button{
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+#completed-text{
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+  text-decoration-thickness: 6px;
+}
+.normal-text{
+  color: white;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  width: 400px;
+  margin: 50px auto;
+}
+.title-div{
+  display: flex;
+  max-width: 100%;
+}
+.counter{
+  font-size: 25px;
+  margin: 10px; 
+}
+.message{
+  font-size: 25px;
+  color: brown;
+  padding: 20px;
+  align-items: center;
+  margin: auto; 
+}
+#name{
+  border-left: 1px solid black ;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+input:focus {
+  outline:none;
+  font-size: 25px;
+}
+.footer-2{
+  display: flex;
+  justify-content: space-between;
+}
+.completed-icon{
+  color: black;
+}
+.footer-1{
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+}
+.footer-buttons{
+  align-items: center;
+  display: flex;
+}
+.footer-buttons button{
+  font-size: 18px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+.footer-1  .footer-text{
+  margin: auto;
+}
+.footer-1 span{
+  color: white;
+  font-size: 25px;
+}
+.footer-1 button {
+  display: none;
+}
+input::placeholder{
+  color: black;
+  font-size: 25px;
+}
+
