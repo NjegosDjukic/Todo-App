@@ -1,2 +1,2 @@
 # Todo-App
-https://njegos-djukic-todo.netlify.app/
+Live: https://njegos-djukic-todo.netlify.app/
